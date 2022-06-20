@@ -12,7 +12,7 @@ namespace Task7
         {
             int priceOfCrystal = 45;
             Console.WriteLine("Добро пожаловать!");
-            Console.WriteLine($"Стоймость кристала : {priceOfCrystal}");
+            Console.WriteLine($"Стоймость кристалла : {priceOfCrystal}");
             Console.WriteLine("Введите золото :");
             int gold = int.Parse(Console.ReadLine());
             Console.WriteLine("Сколько хотите купить кристалов?");
@@ -21,7 +21,6 @@ namespace Task7
             gold -= priceOfCrystal * numberOfPurchasingCrystals ;
             Console.WriteLine($"Осталось золота : {gold}");
             Console.WriteLine($"куплено кристалов : {numberOfPurchasingCrystals}");
-
         }
     }
 }
